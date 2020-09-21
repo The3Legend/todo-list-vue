@@ -24,7 +24,8 @@
           @click="delitItem(msg.id)"
           href="#"
           variant="primary"
-          >Delit task <b-icon icon="basket-fill"></b-icon
+        >
+          Delete the task <b-icon icon="basket-fill"></b-icon
         ></b-button>
         <b-button @click="check(msg.id)" class="complited" variant="danger"
           >Not Complited <b-icon icon="arrow-return-left"></b-icon>
@@ -46,7 +47,8 @@
           @click="delitItem(msg.id)"
           href="#"
           variant="primary"
-          >Delit task <b-icon icon="basket-fill"></b-icon
+        >
+          Delete the task <b-icon icon="basket-fill"></b-icon
         ></b-button>
         <b-button @click="check(msg.id)" class="complited" variant="danger"
           >Complited <b-icon icon="check2-circle"></b-icon
